@@ -1,4 +1,4 @@
-# fanitek_test
+# hibank_test
 
 A new Flutter project.
 
