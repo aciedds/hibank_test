@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>124593963785-luqb4svs28h3nqrdcuvsceschhfqu8vr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.124593963785-luqb4svs28h3nqrdcuvsceschhfqu8vr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>124593963785-1tssnb8341g4mk52bg42onaifj4663q9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDlMum7nHkQ6yQgUnSMuHG4n5rB48ru-Io</string>
+	<key>GCM_SENDER_ID</key>
+	<string>124593963785</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.hibankTest</string>
+	<key>PROJECT_ID</key>
+	<string>hibank-test-9a726</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hibank-test-9a726.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:124593963785:ios:b730ddc64a26c88f1589d8</string>
+</dict>
+</plist>
