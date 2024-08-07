@@ -34,6 +34,7 @@ Here's a breakdown of the project's dependencies and their roles:
 - **`freezed_annotation`:** Generates immutable data classes using the Freezed package, promoting code safety and maintainability.
 - **`get`:** A lightweight and powerful state management solution for Flutter, simplifying data flow and UI updates.
 - **`get_it`:** A service locator for dependency injection, improving code organization and testability.
+- **`google_sign_in`:** Flutter plugin for Google Sign-In, a secure authentication system for signing in with a Google account.
 - **`injectable`:** Enhances dependency injection with annotations and code generation, reducing boilerplate.
 - **`json_annotation`:** Facilitates JSON serialization and deserialization, enabling easy data exchange with APIs.
 - **`json_serializable`:** Generates code for converting Dart objects to and from JSON format.
@@ -50,3 +51,35 @@ These dependencies are used specifically for development and testing:
 - **`flutter_lints`:** A static analysis tool that enforces best practices and code style guidelines.
 - **`freezed`:** Generates immutable data classes with support for value equality, copyWith, and more.
 - **`injectable_generator`:** Generates code for dependency injection using the Injectable package.
+
+Here's breakdown application development flow:
+
+Create a Firebase project
+Setup Firebase build project extension:
+    Setup firebase auth
+        Setup firebase auth by email
+        Setup firebase auth by google
+    Setup firebase firestore
+Setup Flutter project library /package /depedencies
+Integrate Firebase into flutter using Firebase CLI
+Setup flutter firebase core
+    Setup into utils : firebase_utils.dart
+Setup flutter firebase auth for signin with google
+    Setup info.plist for ios
+    Setup android sha-1 for debbug app apk
+        add finger print into Firebase projects setup
+        re init firebase
+Setup di (deppedency injection)
+    Setup di modules
+Setup data layer
+    create model data
+    create remote source
+Setup domain layer
+    create entity data
+    create repository
+        implement the repository into data layer
+    create mapper file if its needed to convert data from domain layer to data layer
+    create usecase
+Setup presentation layer
+
+done
