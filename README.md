@@ -52,34 +52,43 @@ These dependencies are used specifically for development and testing:
 - **`freezed`:** Generates immutable data classes with support for value equality, copyWith, and more.
 - **`injectable_generator`:** Generates code for dependency injection using the Injectable package.
 
-Here's breakdown application development flow:
+# Application Development Flow
 
-Create a Firebase project
-Setup Firebase build project extension:
-    Setup firebase auth
-        Setup firebase auth by email
-        Setup firebase auth by google
-    Setup firebase firestore
-Setup Flutter project library /package /depedencies
-Integrate Firebase into flutter using Firebase CLI
-Setup flutter firebase core
-    Setup into utils : firebase_utils.dart
-Setup flutter firebase auth for signin with google
-    Setup info.plist for ios
-    Setup android sha-1 for debbug app apk
-        add finger print into Firebase projects setup
-        re init firebase
-Setup di (deppedency injection)
-    Setup di modules
-Setup data layer
-    create model data
-    create remote source
-Setup domain layer
-    create entity data
-    create repository
-        implement the repository into data layer
-    create mapper file if its needed to convert data from domain layer to data layer
-    create usecase
-Setup presentation layer
+## 1. Create a Firebase Project
 
-done
+## 2. Setup Firebase Build Project Extension
+1. **Setup Firebase Auth**
+    - Setup Firebase Auth by email
+    - Setup Firebase Auth by Google
+2. **Setup Firebase Firestore**
+
+## 3. Setup Flutter Project Library / Packages / Dependencies
+
+## 4. Integrate Firebase into Flutter using Firebase CLI
+
+## 5. Setup Flutter Firebase Core
+1. Setup into utils: `firebase_utils.dart`
+
+## 6. Setup Flutter Firebase Auth for Sign-In with Google
+1. Setup `Info.plist` for iOS
+2. Setup Android SHA-1 for debug app APK
+    - Add fingerprint into Firebase project setup
+    - Reinitialize Firebase
+
+## 7. Setup Dependency Injection (DI)
+1. Setup DI modules
+
+## 8. Setup Data Layer
+1. Create model data
+2. Create remote source
+
+## 9. Setup Domain Layer
+1. Create entity data
+2. Create repository
+    - Implement the repository into data layer
+3. Create mapper file if needed to convert data from domain layer to data layer
+4. Create use cases
+
+## 10. Setup Presentation Layer
+
+## Done
